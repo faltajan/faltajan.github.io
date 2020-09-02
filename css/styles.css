@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #434343;
+}
+
+header{
+    height: 200px;
+    /* border: 1px solid blue; */
+    padding: 10px;
+    
+}
+
+header img{
+    float:right;
+    display:block;
+    max-height: 90%;
+    margin: auto;
+}
+.name{
+    float: left;
+    display: block;
+}
+
+address{
+    color: #741B47;
+    font-style: normal;
+}
+section{
+    margin-top: 1px;
+    
+}
+#references address{
+    color: #434343;
+}
+
+#languages h3{
+    margin: 1px 0;
+    font-size: 1em;
+    font-style: normal;
+}
+
+.education-item h3,h6{
+    margin: 1px 0;
+}
+.education-item h6{
+    font-size: 0.8em;
+}
+
+
+.container{
+    padding: 0 10%;
+}
+
+.bold{
+    font-weight: bolder;
+}
+.accomplishments{
+    font-style:italic ;
+}
+.duration{
+    color: #B7B7B7;
+}
+h1{
+    color: #741B47;
+}
+
+.experience-item h2{
+    color: #4C1130;
+    margin: 2px 0;
+}
+.experience-item h3{
+    margin: 2px;
+    font-size: 0.95em;
+}
+
+.col-3{
+    background-color: #F3F3F3;
+    color: #741B47;
+    width: 20%;
+    text-align: right;
+    /* border: 1px solid red; */
+    
+
+}
+.col-9{
+    padding: 3%;
+    width: 80%;
+    /* border: 1px solid red; */
+}
+
+.email{
+    color: #1255CC;
+}
+.lightGray{
+    color: #B7B7B7;
+}
+
+#summary{
+    display: flex;
+}
+#skills{
+    display: flex;
+}
+#experience{
+    display: flex;
+}
+#education{
+    display: flex;
+}
+#languages{
+    display: flex;
+}
+#hobbies{
+    display: flex;
+}
+#references{
+    display: flex;
+}
+/* .table{
+    display: flex;
+    flex-direction: column;
+} */
+ul {
+    list-style-position:inside;
+}
